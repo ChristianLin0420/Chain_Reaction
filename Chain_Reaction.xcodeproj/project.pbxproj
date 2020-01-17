@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA3EDE8523CB603300FE9096 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA3EDE8423CB603300FE9096 /* main.cpp */; };
+		AA3EDE9123CB604A00FE9096 /* algorithm_TA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA3EDE8B23CB604900FE9096 /* algorithm_TA.cpp */; };
+		AA3EDE9223CB604A00FE9096 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA3EDE8C23CB604A00FE9096 /* player.cpp */; };
+		AA3EDE9323CB604A00FE9096 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA3EDE8D23CB604A00FE9096 /* main.cpp */; };
+		AA3EDE9423CB604A00FE9096 /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA3EDE8E23CB604A00FE9096 /* board.cpp */; };
+		AA3EDE9523CB604A00FE9096 /* rules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA3EDE8F23CB604A00FE9096 /* rules.cpp */; };
+		AA3EDE9623CB604A00FE9096 /* algorithm_A.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA3EDE9023CB604A00FE9096 /* algorithm_A.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,16 @@
 
 /* Begin PBXFileReference section */
 		AA3EDE8123CB603300FE9096 /* Chain_Reaction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chain_Reaction; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA3EDE8423CB603300FE9096 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AA3EDE8B23CB604900FE9096 /* algorithm_TA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = algorithm_TA.cpp; sourceTree = "<group>"; };
+		AA3EDE8C23CB604A00FE9096 /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		AA3EDE8D23CB604A00FE9096 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AA3EDE8E23CB604A00FE9096 /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = board.cpp; sourceTree = "<group>"; };
+		AA3EDE8F23CB604A00FE9096 /* rules.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rules.cpp; sourceTree = "<group>"; };
+		AA3EDE9023CB604A00FE9096 /* algorithm_A.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = algorithm_A.cpp; sourceTree = "<group>"; };
+		AA3EDE9723CB605000FE9096 /* algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = algorithm.h; sourceTree = "<group>"; };
+		AA3EDE9823CB605000FE9096 /* rules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rules.h; sourceTree = "<group>"; };
+		AA3EDE9923CB605000FE9096 /* player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		AA3EDE9A23CB605100FE9096 /* board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = board.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,16 @@
 		AA3EDE8323CB603300FE9096 /* Chain_Reaction */ = {
 			isa = PBXGroup;
 			children = (
-				AA3EDE8423CB603300FE9096 /* main.cpp */,
+				AA3EDE8D23CB604A00FE9096 /* main.cpp */,
+				AA3EDE8E23CB604A00FE9096 /* board.cpp */,
+				AA3EDE9A23CB605100FE9096 /* board.h */,
+				AA3EDE8C23CB604A00FE9096 /* player.cpp */,
+				AA3EDE9923CB605000FE9096 /* player.h */,
+				AA3EDE8F23CB604A00FE9096 /* rules.cpp */,
+				AA3EDE9823CB605000FE9096 /* rules.h */,
+				AA3EDE9023CB604A00FE9096 /* algorithm_A.cpp */,
+				AA3EDE8B23CB604900FE9096 /* algorithm_TA.cpp */,
+				AA3EDE9723CB605000FE9096 /* algorithm.h */,
 			);
 			path = Chain_Reaction;
 			sourceTree = "<group>";
@@ -119,7 +142,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3EDE8523CB603300FE9096 /* main.cpp in Sources */,
+				AA3EDE9523CB604A00FE9096 /* rules.cpp in Sources */,
+				AA3EDE9623CB604A00FE9096 /* algorithm_A.cpp in Sources */,
+				AA3EDE9223CB604A00FE9096 /* player.cpp in Sources */,
+				AA3EDE9323CB604A00FE9096 /* main.cpp in Sources */,
+				AA3EDE9423CB604A00FE9096 /* board.cpp in Sources */,
+				AA3EDE9123CB604A00FE9096 /* algorithm_TA.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
